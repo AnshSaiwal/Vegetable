@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/buttonshape.xml" value="0.2703125" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/call.xml" value="0.1515625" />
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/custombar.xml" value="0.2703125" />
-        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_main.xml" value="0.144" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/email.xml" value="0.24375" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/grid.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/home.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/drawable/home_solid.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_mar.xml" value="0.16530797101449277" />
-        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_sign_in.xml" value="0.152" />
+        <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_sign_up.xml" value="0.152" />
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/HACKEDONE/AndroidStudioProjects/VegProject/app/src/main/res/layout/expriment.xml" value="0.24365942028985507" />
