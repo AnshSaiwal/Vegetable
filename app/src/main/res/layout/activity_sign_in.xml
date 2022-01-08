@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignIn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slogan"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vegfruit" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            style="@style/TextInputLayout"
+            android:hint="@string/email_address">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/signinemailaddress"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:imeOptions="actionNext"
+                android:drawableEnd="@drawable/email"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            style="@style/TextInputLayout"
+            app:passwordToggleEnabled="true"
+            android:hint="@string/password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/signinpassword"
+                android:textColor="@color/black"
+                android:imeOptions="actionGo"
+                android:textSize="14sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Account? Sign Up."
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/textsignup"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/sign_in"
+            android:id="@+id/signin"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonshape"
+            app:backgroundTint="@null"
+            android:imeOptions="actionSend"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/signinprogressbar"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/custombar"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</ScrollView>

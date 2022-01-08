@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748534139826",
+    "firebase_url": "https://vegproject-af788-default-rtdb.firebaseio.com",
+    "project_id": "vegproject-af788",
+    "storage_bucket": "vegproject-af788.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748534139826:android:83d9189e8b9dacfabf32ab",
+        "android_client_info": {
+          "package_name": "com.example.vegproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748534139826-5p07k2dkngtr8b0dvj27m95p1rbf1205.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe-khGaCWymo9Q4tL20IZU5UMe9zaNTS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748534139826-5p07k2dkngtr8b0dvj27m95p1rbf1205.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
