@@ -12,7 +12,8 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         new Thread(new Runnable() {
             public void run() {
                 try {
@@ -21,7 +22,7 @@ public class SplashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 startActivity(new Intent(SplashScreen.this, SignIn.class));
-                SplashScreen.this.finish();
+                finish();
             }
         }).start();
     }
